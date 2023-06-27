@@ -1,7 +1,7 @@
 [gd_scene load_steps=19 format=3 uid="uid://c8e63wnvolrjw"]
 
 [ext_resource type="Texture2D" uid="uid://drwt5041g30ro" path="res://fase_crossing/assets/knights/16x16 knight 4 v3.png" id="2_kq0pf"]
-[ext_resource type="AudioStream" uid="uid://cv80u3kjnmlrp" path="res://fase_crossing/assets/sons/colide.wav" id="8_ef508"]
+[ext_resource type="AudioStream" uid="uid://y10jdybjqisv" path="res://fase_crossing/assets/sons/collide.mp3" id="3_2fq1j"]
 [ext_resource type="Script" path="res://fase_crossing/scripts/player_crossing.gd" id="9_ksq56"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nq61e"]
@@ -124,6 +124,6 @@ position = Vector2(1, 11)
 shape = SubResource("CircleShape2D_tt0v8")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("8_ef508")
+stream = ExtResource("3_2fq1j")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

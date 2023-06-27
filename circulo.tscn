@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://b0yiuv007rh21"]
 
 [ext_resource type="Script" path="res://objeto.gd" id="1_6ewht"]
-[ext_resource type="Texture2D" uid="uid://k6nlkewdgodx" path="res://assets/Nivel01/Circulo.png" id="2_4un5u"]
+[ext_resource type="Texture2D" uid="uid://k6nlkewdgodx" path="res://assets/Circulo.png" id="2_4un5u"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_n0rf2"]
 bounce = 0.42

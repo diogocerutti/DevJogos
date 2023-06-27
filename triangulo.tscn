@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bg1dxkfa4dgki"]
 
 [ext_resource type="Script" path="res://objeto.gd" id="1_wsikk"]
-[ext_resource type="Texture2D" uid="uid://djixrs1facuc4" path="res://assets/Nivel01/Triangulo.png" id="2_wopd6"]
+[ext_resource type="Texture2D" uid="uid://djixrs1facuc4" path="res://assets/Triangulo.png" id="2_wopd6"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_xj6tt"]
 bounce = 0.42

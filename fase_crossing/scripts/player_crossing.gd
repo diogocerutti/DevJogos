@@ -57,7 +57,7 @@ func _process(delta):
 
 
 func _on_body_entered(body):
-	
+	print("body.name:", body.name)
 	# Verifica se colidiu com a linha de chegada:
 	if body.name == "crossing_chegada":
 		emit_signal("pontua")
@@ -66,5 +66,6 @@ func _on_body_entered(body):
 		$AudioStreamPlayer2D.play()
 	
 	# Reposiciona o player na largada
-	position.x = 640
-	position.y = 680
+	if body.name != "StaticBody2D":
+		position.x = 640
+		position.y = 680

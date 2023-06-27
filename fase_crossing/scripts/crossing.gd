@@ -15,6 +15,7 @@ func _ready():
 	randomize()
 	# Mostra botão de iniciar
 	$Button_start.show()
+	$Button_start.grab_focus()
 	$Player_Crossing.speed = 0
 	# Escondendo o botão de fim de jogo
 	$Button_end.hide()
@@ -80,6 +81,7 @@ func _on_timer_knight_lento_timeout():
 
 # FUNÇÃO PARA VITÓRIA DO JOGADOR
 func _on_player_crossing_pontua():
+	$Tema.stop()
 	$Venceu.play()
 	$Timer.paused = true
 	$Timer_knight_lento.stop()
@@ -87,6 +89,7 @@ func _on_player_crossing_pontua():
 	$Player_Crossing.speed = 0
 	$Button_end.text = "Você venceu!!!\n\nClique para a próxima fase."
 	$Button_end.show()
+	$Button_end.grab_focus()
 	# Adicionar pontos
 	# Mostrar mensagem com botão de próxima fase...
 	
@@ -96,6 +99,7 @@ func _on_player_crossing_pontua():
 func _on_timer_timeout():
 	$Button_end.text = "Você perdeu...\n\nClique para a próxima fase!"
 	$Button_end.show()
+	$Button_end.grab_focus()
 	# Excluir pontos
 	# Mostrar mensagem com botão de próxima fase...
 	$Timer_knight_lento.stop()
@@ -106,7 +110,9 @@ func _on_timer_timeout():
 
 func _on_button_proximo_pressed():
 	$Tema.stop()
-	get_tree().change_scene_to_file("res://nivel_02.tscn")
+	# TESTES!!! DELETAR LINHA ABAIXO E DESCOMENTAR A PROXIMA
+	#get_tree().change_scene_to_file("res://fase_crossing/crossing.tscn")
+	get_tree().change_scene_to_file("res://level_2.tscn")
 	
 
 
@@ -115,3 +121,4 @@ func _on_button_start_pressed():
 	$Button_start.hide()
 	$Timer.start()
 	
+
