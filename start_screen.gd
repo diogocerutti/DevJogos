@@ -5,7 +5,8 @@ func _ready():
 	$Controls/StartBtn.grab_focus()
 
 func _on_start_btn_pressed():
-	get_tree().change_scene_to_file("res://fase_formas.tscn")
+	#get_tree().change_scene_to_file("res://fase_formas.tscn")
+	get_tree().change_scene_to_file("res://crossing.tscn")
 
 func _on_controls_btn_pressed():
 	#var controlScreen = load("res://controls_screen.tscn").instance()
