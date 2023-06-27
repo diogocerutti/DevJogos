@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbu5y8wou6gm0"]
+
+[ext_resource type="Texture2D" uid="uid://n685k8vdddr7" path="res://assets/ganha.png" id="1_nhvnn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uyq7t"]
+size = Vector2(698, 29)
+
+[node name="crossing_chegada" type="RigidBody2D"]
+gravity_scale = 2.66454e-15
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(381.499, -7.00001)
+scale = Vector2(0.599221, 3.22222)
+texture = ExtResource("1_nhvnn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(383, 6.5)
+shape = SubResource("RectangleShape2D_uyq7t")
