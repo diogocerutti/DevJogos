@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://b32lace5qeqph"
-path="res://.godot/imported/ponto.wav-787c05df066c80d89ab4ab9ec96db173.sample"
+uid="uid://clr86lhsswjt1"
+path="res://.godot/imported/tema.wav-4ea44ec1cba97a6dffcf4d7c887caf07.sample"
 
 [deps]
 
-source_file="res://assets/sons/ponto.wav"
-dest_files=["res://.godot/imported/ponto.wav-787c05df066c80d89ab4ab9ec96db173.sample"]
+source_file="res://fase_crossing/assets/sons/tema.wav"
+dest_files=["res://.godot/imported/tema.wav-4ea44ec1cba97a6dffcf4d7c887caf07.sample"]
 
 [params]
 

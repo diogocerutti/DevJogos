@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5avxn7bh0gkl"
-path="res://.godot/imported/16x16 knight 3 v3.png-10da160e703a08223af382cf80b2aa0a.ctex"
+uid="uid://cirvq5l6igb3r"
+path="res://.godot/imported/16x16 knight 2.png-4ccae8a2c032a152164a76c2d6aba7af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/knights/16x16 knight 3 v3.png"
-dest_files=["res://.godot/imported/16x16 knight 3 v3.png-10da160e703a08223af382cf80b2aa0a.ctex"]
+source_file="res://fase_crossing/assets/knights/16x16 knight 2.png"
+dest_files=["res://.godot/imported/16x16 knight 2.png-4ccae8a2c032a152164a76c2d6aba7af.ctex"]
 
 [params]
 

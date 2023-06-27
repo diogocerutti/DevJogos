@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://cv80u3kjnmlrp"
-path="res://.godot/imported/colide.wav-875f59770de0c2e44f1f32b9a8e312e7.sample"
+uid="uid://b32lace5qeqph"
+path="res://.godot/imported/ponto.wav-bb6e75837a31b5f4f3e331c3c2c3b6a7.sample"
 
 [deps]
 
-source_file="res://assets/sons/colide.wav"
-dest_files=["res://.godot/imported/colide.wav-875f59770de0c2e44f1f32b9a8e312e7.sample"]
+source_file="res://fase_crossing/assets/sons/ponto.wav"
+dest_files=["res://.godot/imported/ponto.wav-bb6e75837a31b5f4f3e331c3c2c3b6a7.sample"]
 
 [params]
 

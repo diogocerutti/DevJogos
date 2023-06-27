@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://bqhk8a453pfc5"
-path="res://.godot/imported/ganhou.wav-ae34106c510c8cc501b895cfaeb695d8.sample"
+uid="uid://cv80u3kjnmlrp"
+path="res://.godot/imported/colide.wav-a96d20b18ca5415de2f94060bedb9498.sample"
 
 [deps]
 
-source_file="res://assets/sons/ganhou.wav"
-dest_files=["res://.godot/imported/ganhou.wav-ae34106c510c8cc501b895cfaeb695d8.sample"]
+source_file="res://fase_crossing/assets/sons/colide.wav"
+dest_files=["res://.godot/imported/colide.wav-a96d20b18ca5415de2f94060bedb9498.sample"]
 
 [params]
 
