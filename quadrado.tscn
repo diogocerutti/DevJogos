@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://qc57h6dthyvr"]
+
+[ext_resource type="Script" path="res://objeto.gd" id="1_svtso"]
+[ext_resource type="Texture2D" uid="uid://dyda2kjejyewg" path="res://assets/Quadrado.png" id="2_6q347"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_xjp47"]
+bounce = 0.42
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_diryc"]
+size = Vector2(64, 64)
+
+[node name="Quadrado" type="RigidBody2D" groups=["pickable"]]
+input_pickable = true
+physics_material_override = SubResource("PhysicsMaterial_xjp47")
+freeze_mode = 1
+script = ExtResource("1_svtso")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_6q347")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_diryc")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

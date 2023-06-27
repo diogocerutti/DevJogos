@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://craonfya3jd2g"]
+
+[ext_resource type="Texture2D" path="res://assets/background.jpg" id="1_heu7e"]
+[ext_resource type="Texture2D" path="res://assets/plain-triangle.png" id="2_s5cqa"]
+[ext_resource type="Texture2D" path="res://assets/Pote.png" id="3_1iw6r"]
+[ext_resource type="Script" path="res://Area2D.gd" id="3_q351g"]
+[ext_resource type="Script" path="res://CollisionShape2D.gd" id="4_fkdg8"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ms6hh"]
+radius = 195.491
+height = 428.408
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(575, 327)
+scale = Vector2(1.05741, 0.336458)
+texture = ExtResource("1_heu7e")
+
+[node name="Plain-triangle3" type="Sprite2D" parent="."]
+position = Vector2(537, 168)
+scale = Vector2(0.214844, 0.191406)
+texture = ExtResource("2_s5cqa")
+
+[node name="Area2D" type="Area2D" parent="Plain-triangle3"]
+position = Vector2(-2508.8, -820.245)
+scale = Vector2(4.65455, 5.22449)
+script = ExtResource("3_q351g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Plain-triangle3/Area2D"]
+position = Vector2(539, 162)
+scale = Vector2(0.214844, 0.191406)
+shape = SubResource("CapsuleShape2D_ms6hh")
+script = ExtResource("4_fkdg8")
+
+[node name="Pote" type="Sprite2D" parent="."]
+position = Vector2(252, 499)
+scale = Vector2(0.613333, 0.606667)
+texture = ExtResource("3_1iw6r")
+
+[connection signal="input_event" from="Plain-triangle3/Area2D" to="Plain-triangle3/Area2D" method="_on_input_event"]

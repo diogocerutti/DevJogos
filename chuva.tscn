@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://b22wuqmstbck6"]
+
+[ext_resource type="Script" path="res://Chuva.gd" id="1_8mrow"]
+[ext_resource type="Texture2D" uid="uid://diwbdky7wcyx1" path="res://assets/16x16 RPG Item Pack/Item__11.png" id="2_4af2c"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0ig0g"]
+radius = 2.0
+height = 23.0
+
+[node name="Chuva" type="CharacterBody2D"]
+scale = Vector2(2, 2)
+script = ExtResource("1_8mrow")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = -2.35619
+texture = ExtResource("2_4af2c")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_0ig0g")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_0ig0g")

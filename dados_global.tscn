@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy4gvt5g3etpk"]
+
+[ext_resource type="Script" path="res://dados_global.gd" id="1_6sf2l"]
+
+[node name="DadosGlobal" type="Node"]
+script = ExtResource("1_6sf2l")

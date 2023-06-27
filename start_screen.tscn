@@ -1,0 +1,91 @@
+[gd_scene load_steps=5 format=3 uid="uid://b8yjf5d87fev7"]
+
+[ext_resource type="FontFile" uid="uid://dwyf5diaqq10g" path="res://PressStart2P.ttf" id="1_4rbxb"]
+[ext_resource type="Script" path="res://start_screen.gd" id="1_cct1f"]
+[ext_resource type="Texture2D" uid="uid://23lrud4hj6a6" path="res://assets/gradient.png" id="2_e4hy2"]
+
+[sub_resource type="Theme" id="Theme_y4mkc"]
+
+[node name="StartScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_right = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cct1f")
+
+[node name="Gradient" type="Sprite2D" parent="."]
+position = Vector2(636, 360.5)
+scale = Vector2(0.8, 0.642538)
+texture = ExtResource("2_e4hy2")
+
+[node name="Controls" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -134.0
+offset_top = -46.0
+offset_right = 134.0
+offset_bottom = 46.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartBtn" type="Button" parent="Controls"]
+layout_mode = 2
+focus_neighbor_top = NodePath("../QuitBtn")
+theme = SubResource("Theme_y4mkc")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.446953, 0.404475, 0.10196, 1)
+theme_override_colors/font_hover_color = Color(0.576471, 0.486275, 0.258824, 0.917647)
+theme_override_fonts/font = ExtResource("1_4rbxb")
+theme_override_font_sizes/font_size = 20
+text = "Jogar"
+
+[node name="ControlsBtn" type="Button" parent="Controls"]
+layout_mode = 2
+theme = SubResource("Theme_y4mkc")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.446953, 0.404475, 0.10196, 1)
+theme_override_colors/font_hover_color = Color(0.576471, 0.486275, 0.258824, 0.917647)
+theme_override_fonts/font = ExtResource("1_4rbxb")
+theme_override_font_sizes/font_size = 20
+text = "Configurações"
+
+[node name="QuitBtn" type="Button" parent="Controls"]
+layout_mode = 2
+focus_neighbor_bottom = NodePath("../StartBtn")
+theme = SubResource("Theme_y4mkc")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.447059, 0.403922, 0.101961, 1)
+theme_override_colors/font_hover_color = Color(0.576471, 0.486275, 0.258824, 0.917647)
+theme_override_fonts/font = ExtResource("1_4rbxb")
+theme_override_font_sizes/font_size = 20
+text = "Sair"
+
+[node name="Titulo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 265.0
+offset_top = 44.0
+offset_right = 1007.0
+offset_bottom = 184.0
+theme_override_font_sizes/font_size = 100
+text = "Random Game"
+
+[node name="Subtitulo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 149.0
+offset_right = 830.0
+offset_bottom = 223.0
+theme_override_font_sizes/font_size = 50
+text = "By: Diogo e Thiago"
+
+[connection signal="pressed" from="Controls/StartBtn" to="." method="_on_start_btn_pressed"]
+[connection signal="pressed" from="Controls/ControlsBtn" to="." method="_on_controls_btn_pressed"]
+[connection signal="pressed" from="Controls/QuitBtn" to="." method="_on_quit_btn_pressed"]
