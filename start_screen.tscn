@@ -2,7 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://dwyf5diaqq10g" path="res://PressStart2P.ttf" id="1_4rbxb"]
 [ext_resource type="Script" path="res://start_screen.gd" id="1_cct1f"]
-[ext_resource type="Texture2D" uid="uid://23lrud4hj6a6" path="res://assets/gradient.png" id="2_e4hy2"]
+[ext_resource type="Texture2D" uid="uid://23lrud4hj6a6" path="res://assets/TelaInicial/gradient.png" id="2_4l0p4"]
 
 [sub_resource type="Theme" id="Theme_y4mkc"]
 
@@ -20,7 +20,7 @@ script = ExtResource("1_cct1f")
 [node name="Gradient" type="Sprite2D" parent="."]
 position = Vector2(636, 360.5)
 scale = Vector2(0.8, 0.642538)
-texture = ExtResource("2_e4hy2")
+texture = ExtResource("2_4l0p4")
 
 [node name="Controls" type="VBoxContainer" parent="."]
 layout_mode = 1
