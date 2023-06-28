@@ -1,6 +1,6 @@
 extends Node2D
 
-const novo_knight = preload("res://fase_crossing/knights.tscn")
+const novo_knight = preload("res://assets/Nivel03/knights.tscn")
 
 var pista_lenta = [600, 488, 437, 323, 215]#, 160]
 var pista_rapida = [543, 384, 274, 160]#, 103]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3njhq1e0m3y6"
-path="res://.godot/imported/mountain_landscape.png-ce85e60bf4c900886e6be306b9dc9204.ctex"
+uid="uid://crvjanu8o7x21"
+path="res://.godot/imported/16x16 knight 2 v3.png-f2d5a5512b9c32e2cf875d9152d953c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fase_crossing/assets/background/mountain_landscape.png"
-dest_files=["res://.godot/imported/mountain_landscape.png-ce85e60bf4c900886e6be306b9dc9204.ctex"]
+source_file="res://assets/Nivel03/assets/knights/16x16 knight 2 v3.png"
+dest_files=["res://.godot/imported/16x16 knight 2 v3.png-f2d5a5512b9c32e2cf875d9152d953c3.ctex"]
 
 [params]
 

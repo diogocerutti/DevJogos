@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bqhk8a453pfc5"
-path="res://.godot/imported/ganhou.wav-efa18b876b0aaf0f8155487ee1e2e619.sample"
+path="res://.godot/imported/ganhou.wav-ff60c08fe4c5685d0393c36ca6a51429.sample"
 
 [deps]
 
-source_file="res://fase_crossing/assets/sons/ganhou.wav"
-dest_files=["res://.godot/imported/ganhou.wav-efa18b876b0aaf0f8155487ee1e2e619.sample"]
+source_file="res://assets/Nivel03/assets/sons/ganhou.wav"
+dest_files=["res://.godot/imported/ganhou.wav-ff60c08fe4c5685d0393c36ca6a51429.sample"]
 
 [params]
 

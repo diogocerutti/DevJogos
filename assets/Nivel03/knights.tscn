@@ -1,12 +1,12 @@
 [gd_scene load_steps=75 format=3 uid="uid://c0i1qq12dm1lq"]
 
-[ext_resource type="Script" path="res://fase_crossing/scripts/knights.gd" id="1_psgrs"]
-[ext_resource type="Texture2D" uid="uid://vo3ie4dl1ana" path="res://fase_crossing/assets/knights/16x16 knight 1.png" id="2_f8rf5"]
-[ext_resource type="Texture2D" uid="uid://crvjanu8o7x21" path="res://fase_crossing/assets/knights/16x16 knight 2 v3.png" id="3_6ky1v"]
-[ext_resource type="Texture2D" uid="uid://cirvq5l6igb3r" path="res://fase_crossing/assets/knights/16x16 knight 2.png" id="4_a5a6h"]
-[ext_resource type="Texture2D" uid="uid://c5avxn7bh0gkl" path="res://fase_crossing/assets/knights/16x16 knight 3 v3.png" id="5_yhndr"]
-[ext_resource type="Texture2D" uid="uid://b3tlva7t76q6r" path="res://fase_crossing/assets/knights/16x16 knight 3.png" id="6_8wd8c"]
-[ext_resource type="Texture2D" uid="uid://c6ki61xjpinas" path="res://fase_crossing/assets/knights/16x16 knight 1 v3.png" id="7_1p0ng"]
+[ext_resource type="Script" path="res://assets/Nivel03/scripts/knights.gd" id="1_psgrs"]
+[ext_resource type="Texture2D" uid="uid://vo3ie4dl1ana" path="res://assets/Nivel03/assets/knights/16x16 knight 1.png" id="2_f8rf5"]
+[ext_resource type="Texture2D" uid="uid://crvjanu8o7x21" path="res://assets/Nivel03/assets/knights/16x16 knight 2 v3.png" id="3_6ky1v"]
+[ext_resource type="Texture2D" uid="uid://cirvq5l6igb3r" path="res://assets/Nivel03/assets/knights/16x16 knight 2.png" id="4_a5a6h"]
+[ext_resource type="Texture2D" uid="uid://c5avxn7bh0gkl" path="res://assets/Nivel03/assets/knights/16x16 knight 3 v3.png" id="5_yhndr"]
+[ext_resource type="Texture2D" uid="uid://b3tlva7t76q6r" path="res://assets/Nivel03/assets/knights/16x16 knight 3.png" id="6_8wd8c"]
+[ext_resource type="Texture2D" uid="uid://c6ki61xjpinas" path="res://assets/Nivel03/assets/knights/16x16 knight 1 v3.png" id="7_1p0ng"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s2fqq"]
 atlas = ExtResource("2_f8rf5")

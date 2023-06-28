@@ -1,7 +1,7 @@
-[gd_scene load_steps=23 format=3 uid="uid://blyx4beaglao3"]
+[gd_scene load_steps=23 format=3 uid="uid://1bc1lake1uxd"]
 
 [ext_resource type="Script" path="res://nivel_02.gd" id="1_85me3"]
-[ext_resource type="Texture2D" uid="uid://i2ankc0bdsi4" path="res://assets/Nivel02/tiles_packed.png" id="2_agcmh"]
+[ext_resource type="Texture2D" uid="uid://i2ankc0bdsi4" path="res://assets/Tilemap/tiles_packed.png" id="2_agcmh"]
 [ext_resource type="Texture2D" uid="uid://batft1lcfenti" path="res://assets/Nivel02/tilemap_packed.png" id="3_f6wme"]
 [ext_resource type="Texture2D" uid="uid://c8g4in740bidd" path="res://assets/Nivel02/tilemap.png" id="4_sygu6"]
 [ext_resource type="Script" path="res://player.gd" id="5_27s4w"]
