@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cley8kx6mgl5s"
-path="res://.godot/imported/PoteAzul.png-586af66d8a4a68de77d65c47679202e4.ctex"
+uid="uid://nicpb1a554eg"
+path="res://.godot/imported/tampa.png-a8a4e38e68c7630f68f8c54d8c060158.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nivel_01/assets/PoteAzul.png"
-dest_files=["res://.godot/imported/PoteAzul.png-586af66d8a4a68de77d65c47679202e4.ctex"]
+source_file="res://nivel_01/assets/tampa.png"
+dest_files=["res://.godot/imported/tampa.png-a8a4e38e68c7630f68f8c54d8c060158.ctex"]
 
 [params]
 

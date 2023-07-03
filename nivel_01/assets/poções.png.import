@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://k6nlkewdgodx"
-path="res://.godot/imported/Circulo.png-ebbd694b655d3e575ccb0c5d522e6d90.ctex"
+uid="uid://ctwe0paldvsgs"
+path="res://.godot/imported/poções.png-a202b65f46a1591f164a6b3818da606b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nivel_01/assets/Circulo.png"
-dest_files=["res://.godot/imported/Circulo.png-ebbd694b655d3e575ccb0c5d522e6d90.ctex"]
+source_file="res://nivel_01/assets/poções.png"
+dest_files=["res://.godot/imported/poções.png-a202b65f46a1591f164a6b3818da606b.ctex"]
 
 [params]
 

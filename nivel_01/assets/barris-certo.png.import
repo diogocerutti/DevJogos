@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqjqqckkd0j6f"
-path="res://.godot/imported/tiles2.png-21ccec2f023160953b3350ac7721bc19.ctex"
+uid="uid://vhqo18rx4ndl"
+path="res://.godot/imported/barris-certo.png-900be2d1d61991e3fd795154fb562d9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nivel_01/assets/tiles2.png"
-dest_files=["res://.godot/imported/tiles2.png-21ccec2f023160953b3350ac7721bc19.ctex"]
+source_file="res://nivel_01/assets/barris-certo.png"
+dest_files=["res://.godot/imported/barris-certo.png-900be2d1d61991e3fd795154fb562d9e.ctex"]
 
 [params]
 

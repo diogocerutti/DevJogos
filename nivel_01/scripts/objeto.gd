@@ -31,23 +31,3 @@ func drop(impulse=Vector2.ZERO):
 func _on_area_vermelha_body_entered(body):
 	if body.name == "Quadrado":
 		quadradoIn = true
-		
-func _on_area_vermelha_body_exited(body):
-	if body.name == "Quadrado":
-		quadradoIn = false
-
-func _on_area_azul_body_entered(body):
-	if body.name == "Triangulo":
-		trianguloIn = true
-
-func _on_area_azul_body_exited(body):
-	if body.name == "Triangulo":
-		trianguloIn = false
-
-func _on_area_verde_body_entered(body):
-	if body.name == "Circulo":
-		circuloIn = true
-
-func _on_area_verde_body_exited(body):
-	if body.name == "Circulo":
-		circuloIn = false
