@@ -18,7 +18,7 @@ func _ready():
 
 func variar_textura():
 	texturas.shuffle()
-	texturas_random = texturas.slice(4)
+	texturas_random = texturas.slice(6)
 
 
 func ganhar_ponto(pontos: int):

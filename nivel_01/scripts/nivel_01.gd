@@ -4,9 +4,10 @@ var held_object = false
 var pausado = false
 
 func _ready():
+	$Sprite2D.play()
 	for node in get_tree().get_nodes_in_group("pickable"):
 		node.clicked.connect(_on_pickable_clicked)
-	DadosGlobal.ponto.connect(atualizar_tela)
+	#DadosGlobal.ponto.connect(atualizar_tela)
 
 #func _process(delta):
 #	verifica()
@@ -22,10 +23,10 @@ func _unhandled_input(event):
 			held_object.drop(Input.get_last_mouse_velocity() / 5.0)
 			held_object = null
 
-func atualizar_tela():
-	%PontosLabel.text = "Pontos: {pontos}".format({
-		"pontos": DadosGlobal.numero_pontos
-	})
+#func atualizar_tela():
+#	%PontosLabel.text = "Pontos: {pontos}".format({
+#		"pontos": DadosGlobal.numero_pontos
+#	})
 	
 #func verifica():
 #	var quadrado = get_node("Quadrado")

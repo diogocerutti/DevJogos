@@ -7,7 +7,7 @@
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_c8xwk"]
 bounce = 0.41
 
-[node name="Node2D2" type="RigidBody2D" groups=["pickable"]]
+[node name="Node2D" type="RigidBody2D" groups=["pickable"]]
 input_pickable = true
 physics_material_override = SubResource("PhysicsMaterial_c8xwk")
 freeze_mode = 1
@@ -16,7 +16,7 @@ script = ExtResource("1_cu6ut")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_ag46p")
 region_enabled = true
-region_rect = Rect2(10, 2, 44, 60)
+region_rect = Rect2(74, 2, 44, 60)
 script = ExtResource("3_bvk1o")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]

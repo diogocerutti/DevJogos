@@ -14,6 +14,6 @@ func _process(delta):
 
 
 func _on_timer_timeout():
-	#downcounting()
-	if points[1].x == -40:
+	downcounting()
+	if points[1].x < 0:
 		get_tree().change_scene_to_file("res://nivel_02/scenes/nivel_02.tscn")

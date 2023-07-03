@@ -115,8 +115,8 @@ func _on_button_proximo_pressed():
 		DadosGlobal.numero_vidas = 3
 		get_tree().change_scene_to_file("res://start_screen.tscn")
 	else:
-		#get_tree().change_scene_to_file("res://nivel_01/scenes/nivel_01.tscn")
-		get_tree().change_scene_to_file("res://nivel_02/scenes/nivel_02.tscn")
+		get_tree().change_scene_to_file("res://nivel_01/scenes/nivel_01.tscn")
+		#get_tree().change_scene_to_file("res://nivel_02/scenes/nivel_02.tscn")
 		#get_tree().change_scene_to_file("res://nivel_03/scenes/nivel_03.tscn")
 	
 

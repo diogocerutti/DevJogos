@@ -31,6 +31,3 @@ func drop(impulse=Vector2.ZERO):
 func _on_area_vermelha_body_entered(body):
 	if body.name == "Quadrado":
 		quadradoIn = true
-
-func _on_body_entered(body):
-	print(body.region_rect)
