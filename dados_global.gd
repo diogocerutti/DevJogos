@@ -21,8 +21,8 @@ func variar_textura():
 	texturas_random = texturas.slice(4)
 
 
-func ganhar_ponto():
-	numero_pontos += 5
+func ganhar_ponto(pontos: int):
+	numero_pontos += pontos
 	ponto.emit()
 
 

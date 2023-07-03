@@ -91,7 +91,7 @@ func _on_player_crossing_pontua():
 	$Button_end.show()
 	$Button_end.grab_focus()
 	# Adicionar pontos
-	DadosGlobal.ganhar_ponto()
+	DadosGlobal.ganhar_ponto(int($Timer.time_left))
 	
 	
 
