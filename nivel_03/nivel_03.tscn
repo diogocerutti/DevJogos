@@ -7,7 +7,7 @@
 [ext_resource type="FontFile" uid="uid://cm1el74ieodtj" path="res://nivel_03/assets/fontes/PressStart2P-Regular.ttf" id="5_0vdno"]
 [ext_resource type="AudioStream" uid="uid://cc02wluq5mbvd" path="res://nivel_03/assets/sons/victory.mp3" id="6_uxmli"]
 [ext_resource type="AudioStream" uid="uid://dude2cvjwsir4" path="res://nivel_03/assets/sons/theme.mp3" id="7_1tyol"]
-[ext_resource type="PackedScene" uid="uid://g2h63we70ccn" path="res://score_card.tscn" id="8_xw10u"]
+[ext_resource type="PackedScene" uid="uid://g2h63we70ccn" path="res://assets/score_card.tscn" id="8_xw10u"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tqlbm"]
 texture = ExtResource("2_p1mdh")

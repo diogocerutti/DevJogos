@@ -1,12 +1,19 @@
 extends RigidBody2D
 
+
+var screen_size
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	
+	screen_size = get_viewport_rect().size
+	
 	$Sprite2D.apply_scale(Vector2(0.7, 0.7))
 	scale = Vector2(0.1, 0.1)
 	get_node("CollisionShape2D").disabled = true
 	position.y = 300
-	position.x = randi_range(100, 1200)
+	#position.x = randi_range(100, 1200)
+	position.x = randi_range(0, screen_size.x)
 	linear_velocity = Vector2(0, randi_range(-1000,-1400))
 	
 

@@ -9,7 +9,7 @@
 [ext_resource type="AudioStream" uid="uid://gx36roan6x8r" path="res://nivel_02/assets/sons/victory2.mp3" id="7_bx5ga"]
 [ext_resource type="AudioStream" uid="uid://c2gomhpyxioxj" path="res://nivel_02/assets/sons/tema2.mp3" id="8_3a4rd"]
 [ext_resource type="FontFile" uid="uid://cm1el74ieodtj" path="res://nivel_03/assets/fontes/PressStart2P-Regular.ttf" id="9_qnmcv"]
-[ext_resource type="PackedScene" uid="uid://g2h63we70ccn" path="res://score_card.tscn" id="9_sp447"]
+[ext_resource type="PackedScene" uid="uid://g2h63we70ccn" path="res://assets/score_card.tscn" id="9_sp447"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0yi64"]
 texture = ExtResource("2_rb1if")
@@ -67,6 +67,7 @@ texture = ExtResource("4_skts2")
 centered = false
 
 [node name="flag" parent="." instance=ExtResource("5_71nyd")]
+visible = false
 position = Vector2(1252, 644)
 gravity_scale = 2.66454e-15
 
@@ -76,7 +77,6 @@ speed = 200.0
 
 [node name="TimerFlecha" type="Timer" parent="."]
 wait_time = 0.5
-autostart = true
 
 [node name="Timer" type="Timer" parent="."]
 
@@ -100,7 +100,7 @@ offset_right = 697.0
 offset_bottom = 51.0
 theme_override_colors/font_color = Color(0.913725, 0.917647, 0, 1)
 theme_override_fonts/font = ExtResource("9_qnmcv")
-text = "01:00"
+text = "0:00"
 horizontal_alignment = 1
 vertical_alignment = 1
 
