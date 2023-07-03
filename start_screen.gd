@@ -8,9 +8,10 @@ func _ready():
 	$Controls/StartBtn.grab_focus()
 
 func _on_start_btn_pressed():
-	get_tree().change_scene_to_file("res://nivel_01/nivel_01.tscn") # POÇÕES
-	#get_tree().change_scene_to_file("res://nivel_02/nivel_02.tscn") # ESPADAS
-	#get_tree().change_scene_to_file("res://nivel_03/nivel_03.tscn") # CROSSING
+	DadosGlobal.numero_pontos = 0
+	get_tree().change_scene_to_file("res://nivel_01/scenes/nivel_01.tscn") # POÇÕES
+	#get_tree().change_scene_to_file("res://nivel_02/scenes/nivel_02.tscn") # ESPADAS
+	#get_tree().change_scene_to_file("res://nivel_03/scenes/nivel_03.tscn") # CROSSING
 
 func _on_controls_btn_pressed():
 	#var controlScreen = load("res://controls_screen.tscn").instance()

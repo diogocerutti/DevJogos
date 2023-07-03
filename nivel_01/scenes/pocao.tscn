@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://nm04yjerdwxr"]
+
+[ext_resource type="Script" path="res://nivel_01/scripts/objeto.gd" id="1_cu6ut"]
+[ext_resource type="Texture2D" uid="uid://ctwe0paldvsgs" path="res://nivel_01/assets/poções.png" id="2_ag46p"]
+[ext_resource type="Script" path="res://nivel_01/scripts/pocao.gd" id="3_bvk1o"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_c8xwk"]
+bounce = 0.41
+
+[node name="Node2D" type="RigidBody2D" groups=["pickable"]]
+input_pickable = true
+physics_material_override = SubResource("PhysicsMaterial_c8xwk")
+freeze_mode = 1
+script = ExtResource("1_cu6ut")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_ag46p")
+region_enabled = true
+region_rect = Rect2(10, 2, 44, 60)
+script = ExtResource("3_bvk1o")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, -30, -10, -30, -10, -10, -23, 4, -23, 20, -13, 31, 11, 31, 23, 19, 23, 3, 11, -11, 11, -30)
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

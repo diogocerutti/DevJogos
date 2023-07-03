@@ -1,0 +1,87 @@
+[gd_scene load_steps=6 format=3 uid="uid://lu5clpcq1dfg"]
+
+[ext_resource type="Texture2D" uid="uid://vhqo18rx4ndl" path="res://nivel_01/assets/barris-certo.png" id="1_e4m5q"]
+[ext_resource type="Script" path="res://nivel_01/scripts/barril.gd" id="2_qmpxt"]
+[ext_resource type="Script" path="res://nivel_01/scripts/area_barril.gd" id="3_s1v0g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_22xu1"]
+size = Vector2(28.5, 30.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wcieq"]
+size = Vector2(28.25, 33)
+
+[node name="Node2D" type="StaticBody2D"]
+scale = Vector2(2, 2)
+
+[node name="Barril1" type="Sprite2D" parent="." groups=["barril"]]
+scale = Vector2(2, 2)
+texture = ExtResource("1_e4m5q")
+region_enabled = true
+region_rect = Rect2(10, 11, 40, 52)
+script = ExtResource("2_qmpxt")
+
+[node name="Area2D" type="Area2D" parent="Barril1"]
+script = ExtResource("3_s1v0g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Barril1/Area2D"]
+position = Vector2(-0.5, -7.875)
+shape = SubResource("RectangleShape2D_22xu1")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-32, -52, -39, -15, -38, 19, 35, 18, 40, -25, 30, -53, 29, 18, -32, 19)
+
+[node name="Barril2" type="Sprite2D" parent="." groups=["barril"]]
+position = Vector2(99, 0)
+scale = Vector2(2, 2)
+texture = ExtResource("1_e4m5q")
+region_enabled = true
+region_rect = Rect2(10, 11, 40, 52)
+script = ExtResource("2_qmpxt")
+
+[node name="Area2D" type="Area2D" parent="Barril2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Barril2/Area2D"]
+position = Vector2(-0.375, -6.5)
+shape = SubResource("RectangleShape2D_wcieq")
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="."]
+position = Vector2(99, 0)
+polygon = PackedVector2Array(-32, -52, -39, -15, -38, 19, 35, 18, 40, -25, 30, -53, 29, 18, -32, 19)
+
+[node name="Barril3" type="Sprite2D" parent="." groups=["barril"]]
+position = Vector2(198, 0)
+scale = Vector2(2, 2)
+texture = ExtResource("1_e4m5q")
+region_enabled = true
+region_rect = Rect2(10, 11, 40, 52)
+script = ExtResource("2_qmpxt")
+
+[node name="Area2D" type="Area2D" parent="Barril3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Barril3/Area2D"]
+position = Vector2(-0.375, -6.5)
+shape = SubResource("RectangleShape2D_wcieq")
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="."]
+position = Vector2(198, 0)
+polygon = PackedVector2Array(-32, -52, -39, -15, -38, 19, 35, 18, 40, -25, 30, -53, 29, 18, -32, 19)
+
+[node name="Barril4" type="Sprite2D" parent="." groups=["barril"]]
+position = Vector2(297, 0)
+scale = Vector2(2, 2)
+texture = ExtResource("1_e4m5q")
+region_enabled = true
+region_rect = Rect2(10, 11, 40, 52)
+script = ExtResource("2_qmpxt")
+
+[node name="Area2D" type="Area2D" parent="Barril4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Barril4/Area2D"]
+position = Vector2(-0.375, -6.5)
+shape = SubResource("RectangleShape2D_wcieq")
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="."]
+position = Vector2(297, 0)
+polygon = PackedVector2Array(-32, -52, -39, -15, -38, 19, 35, 18, 40, -25, 30, -53, 29, 18, -32, 19)
+
+[connection signal="body_entered" from="Barril1/Area2D" to="Barril1/Area2D" method="_on_body_entered"]
