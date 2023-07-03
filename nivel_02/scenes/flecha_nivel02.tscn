@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bh6tuyhhakwo2"]
+
+[ext_resource type="Script" path="res://nivel_02/scripts/flecha_nivel02.gd" id="1_1qfs1"]
+[ext_resource type="Texture2D" uid="uid://b8tf7slwx1dg3" path="res://nivel_02/assets/arrow.png" id="2_pskpu"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qm5y8"]
+radius = 3.0
+height = 122.0
+
+[node name="flecha_nivel02" type="RigidBody2D"]
+gravity_scale = 2.66454e-15
+script = ExtResource("1_1qfs1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_pskpu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 1)
+shape = SubResource("CapsuleShape2D_qm5y8")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(0, 3.5)
+scale = Vector2(1, 6.25)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

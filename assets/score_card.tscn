@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://g2h63we70ccn"]
+
+[ext_resource type="FontFile" uid="uid://cm1el74ieodtj" path="res://nivel_03/assets/fontes/PressStart2P-Regular.ttf" id="1_sm8en"]
+[ext_resource type="Script" path="res://assets/score_card.gd" id="2_bl77k"]
+
+[node name="score_card" type="Label"]
+offset_left = -20.0
+offset_top = -12.0
+offset_right = 20.0
+offset_bottom = 11.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_sm8en")
+script = ExtResource("2_bl77k")

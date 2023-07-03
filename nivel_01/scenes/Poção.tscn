@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://nm04yjerdwxr"]
+
+[ext_resource type="Texture2D" uid="uid://0vg2efnatlih" path="res://nivel_01/assets/potion-ocal.png" id="1_bc0t4"]
+[ext_resource type="Script" path="res://Poção.gd" id="2_s2l2p"]
+
+[node name="Node2D" type="RigidBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_bc0t4")
+region_enabled = true
+region_rect = Rect2(0, 0, 32, 32)
+script = ExtResource("2_s2l2p")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, -31, -11, -31, -11, -21, -8, -21, -8, -17, -11, -17, -11, -9, -24, 4, -24, 20, -12, 32, 11, 32, 24, 19, 24, 3, 11, -11, 11, -17, 9, -17, 9, -21, 11, -21, 11, -31)
