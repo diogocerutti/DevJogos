@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dah6pksb2xdwj"]
 
-[ext_resource type="FontFile" uid="uid://dwyf5diaqq10g" path="res://nivel_03/assets/PressStart2P.ttf" id="1_8m0gn"]
+[ext_resource type="FontFile" uid="uid://dm6o48yprjbsc" path="res://assets/PressStart2P.ttf" id="1_8m0gn"]
 [ext_resource type="Script" path="res://controls_screen.gd" id="1_oxp07"]
 
 [node name="ControlsScreen" type="Control"]
@@ -36,9 +36,10 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = ExtResource("1_8m0gn")
 text = "Controles
-Andar para a esquerda Seta esquerda / A
-Andar para a direita Seta direita / D
-Pular Espaço / W
+Andar para a esquerda Seta esquerda
+Andar para a direita Seta direita
+Andar para cima Seta para cima
+Andar para baixo Seta para baixo
 Mover formas / Botão esquerdo do mouse"
 horizontal_alignment = 1
 vertical_alignment = 1
