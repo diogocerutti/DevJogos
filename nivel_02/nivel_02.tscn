@@ -88,10 +88,6 @@ stream = ExtResource("8_3a4rd")
 volume_db = -10.0
 
 [node name="score_card" parent="." instance=ExtResource("9_sp447")]
-offset_left = 6.0
-offset_top = 5.0
-offset_right = 46.0
-offset_bottom = 28.0
 
 [node name="Label_Timer" type="Label" parent="."]
 offset_left = 607.0

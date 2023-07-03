@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dah6pksb2xdwj"]
 
-[ext_resource type="FontFile" uid="uid://dwyf5diaqq10g" path="res://assets/PressStart2P.ttf" id="1_8m0gn"]
+[ext_resource type="FontFile" uid="uid://dwyf5diaqq10g" path="res://nivel_03/assets/PressStart2P.ttf" id="1_8m0gn"]
 [ext_resource type="Script" path="res://controls_screen.gd" id="1_oxp07"]
 
 [node name="ControlsScreen" type="Control"]

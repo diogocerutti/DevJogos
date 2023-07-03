@@ -1,13 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://g2h63we70ccn"]
+[gd_scene load_steps=4 format=3 uid="uid://g2h63we70ccn"]
 
 [ext_resource type="FontFile" uid="uid://cm1el74ieodtj" path="res://nivel_01/assets/fontes/PressStart2P-Regular.ttf" id="1_sm8en"]
-[ext_resource type="Script" path="res://assets/score_card.gd" id="2_bl77k"]
+[ext_resource type="Script" path="res://assets/Vidas.gd" id="2_1wfyu"]
+[ext_resource type="Script" path="res://assets/Pontos.gd" id="3_snti7"]
 
-[node name="score_card" type="Label"]
-offset_left = -20.0
-offset_top = -12.0
-offset_right = 20.0
-offset_bottom = 11.0
+[node name="score_card" type="CanvasLayer"]
+
+[node name="Vidas" type="Label" parent="."]
+offset_left = 9.0
+offset_top = 10.0
+offset_right = 105.0
+offset_bottom = 33.0
 theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_fonts/font = ExtResource("1_sm8en")
-script = ExtResource("2_bl77k")
+text = "Vidas:"
+vertical_alignment = 1
+script = ExtResource("2_1wfyu")
+
+[node name="Pontos" type="Label" parent="."]
+offset_left = 1093.0
+offset_top = 14.0
+offset_right = 1205.0
+offset_bottom = 37.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_fonts/font = ExtResource("1_sm8en")
+text = "Pontos:"
+vertical_alignment = 1
+script = ExtResource("3_snti7")

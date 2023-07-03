@@ -48,7 +48,7 @@ func _process(delta):
 
 
 func _on_body_entered(body):
-	print("Player._on_body_entered: ", body.name)
+	
 	if body.name == "flag":
 		emit_signal("venceu")
 	elif !is_dead:
