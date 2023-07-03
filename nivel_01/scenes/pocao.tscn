@@ -7,7 +7,7 @@
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_c8xwk"]
 bounce = 0.41
 
-[node name="Node2D" type="RigidBody2D" groups=["pickable"]]
+[node name="Node2D2" type="RigidBody2D" groups=["pickable"]]
 input_pickable = true
 physics_material_override = SubResource("PhysicsMaterial_c8xwk")
 freeze_mode = 1
