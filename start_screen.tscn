@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://b8yjf5d87fev7"]
 
 [ext_resource type="Script" path="res://start_screen.gd" id="1_cct1f"]
-[ext_resource type="Texture2D" uid="uid://23lrud4hj6a6" path="res://assets/gradient.png" id="2_e4hy2"]
+[ext_resource type="Texture2D" uid="uid://bfwnk2c2megws" path="res://assets/background_inicial.jpg" id="2_2yq2w"]
 [ext_resource type="FontFile" uid="uid://dm6o48yprjbsc" path="res://assets/PressStart2P.ttf" id="3_obepd"]
 
 [sub_resource type="Theme" id="Theme_y4mkc"]
@@ -18,9 +18,9 @@ grow_vertical = 2
 script = ExtResource("1_cct1f")
 
 [node name="Gradient" type="Sprite2D" parent="."]
-position = Vector2(636, 360.5)
-scale = Vector2(0.8, 0.642538)
-texture = ExtResource("2_e4hy2")
+position = Vector2(633.95, 369.414)
+scale = Vector2(0.717251, 0.742012)
+texture = ExtResource("2_2yq2w")
 
 [node name="Controls" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -65,10 +65,11 @@ text = "Sair"
 
 [node name="Titulo" type="Label" parent="."]
 layout_mode = 0
-offset_left = 39.0
-offset_top = 46.0
-offset_right = 1219.0
-offset_bottom = 186.0
+offset_left = 45.0
+offset_top = 21.0
+offset_right = 1225.0
+offset_bottom = 161.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("3_obepd")
 theme_override_font_sizes/font_size = 50
 text = "FRENZY MISSIONS"

@@ -239,6 +239,7 @@ default_color = Color(0.478431, 0.0352941, 1, 1)
 script = ExtResource("8_8om1x")
 
 [node name="Timer" type="Timer" parent="BarraTempo"]
+wait_time = 3.0
 autostart = true
 
 [node name="score_card" parent="." instance=ExtResource("11_r4y8j")]
