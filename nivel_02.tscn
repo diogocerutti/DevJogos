@@ -1,7 +1,7 @@
 [gd_scene load_steps=23 format=3 uid="uid://1bc1lake1uxd"]
 
 [ext_resource type="Script" path="res://nivel_02.gd" id="1_85me3"]
-[ext_resource type="Texture2D" uid="uid://i2ankc0bdsi4" path="res://assets/Tilemap/tiles_packed.png" id="2_agcmh"]
+[ext_resource type="Texture2D" uid="uid://i2ankc0bdsi4" path="res://assets/Nivel02/tiles_packed.png" id="2_fdvqm"]
 [ext_resource type="Texture2D" uid="uid://batft1lcfenti" path="res://assets/Nivel02/tilemap_packed.png" id="3_f6wme"]
 [ext_resource type="Texture2D" uid="uid://c8g4in740bidd" path="res://assets/Nivel02/tilemap.png" id="4_sygu6"]
 [ext_resource type="Script" path="res://player.gd" id="5_27s4w"]
@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://b22wuqmstbck6" path="res://chuva.tscn" id="8_5vfnf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vvoea"]
-texture = ExtResource("2_agcmh")
+texture = ExtResource("2_fdvqm")
 texture_region_size = Vector2i(18, 18)
 1:3/0 = 0
 1:4/0 = 0
@@ -79,7 +79,7 @@ texture_region_size = Vector2i(18, 18)
 2:0/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b6xr4"]
-texture = ExtResource("2_agcmh")
+texture = ExtResource("2_fdvqm")
 texture_region_size = Vector2i(18, 18)
 3:7/0 = 0
 3:7/0/physics_layer_0/linear_velocity = Vector2(0, 0)

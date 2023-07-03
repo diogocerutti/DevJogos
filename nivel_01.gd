@@ -8,8 +8,8 @@ func _ready():
 		node.clicked.connect(_on_pickable_clicked)
 	DadosGlobal.ponto.connect(atualizar_tela)
 
-func _process(delta):
-	verifica()
+#func _process(delta):
+#	verifica()
 
 func _on_pickable_clicked(object):
 	if !held_object:
@@ -27,17 +27,17 @@ func atualizar_tela():
 		"pontos": DadosGlobal.numero_pontos
 	})
 	
-func verifica():
-	var quadrado = get_node("Quadrado")
-	var triangulo = get_node("Triangulo")
-	var circulo = get_node("Circulo")
-	if quadrado.quadradoIn == true && triangulo.trianguloIn == true && circulo.circuloIn == true:
-		$Certo.visible = true
-		$Errado.visible = false
-		DadosGlobal.ganhar_ponto()
-	else:
-		$Certo.visible = false
-		$Errado.visible = true
+#func verifica():
+#	var quadrado = get_node("Quadrado")
+#	var triangulo = get_node("Triangulo")
+#	var circulo = get_node("Circulo")
+#	if quadrado.quadradoIn == true && triangulo.trianguloIn == true && circulo.circuloIn == true:
+#		$Certo.visible = true
+#		$Errado.visible = false
+#		DadosGlobal.ganhar_ponto()
+#	else:
+#		$Certo.visible = false
+#		$Errado.visible = true
 
 func _on_pausar_button_down():
 	get_tree().paused = true
