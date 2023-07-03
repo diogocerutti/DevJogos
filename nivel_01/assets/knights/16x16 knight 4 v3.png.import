@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c302w4svoqpam"
-path="res://.godot/imported/Lined Brick.png-77563d9964fc62682f0fd7820650ccdf.ctex"
+uid="uid://drwt5041g30ro"
+path="res://.godot/imported/16x16 knight 4 v3.png-f4d81c0a156f6df86f95b8a111d345c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nivel_01/assets/Lined Brick.png"
-dest_files=["res://.godot/imported/Lined Brick.png-77563d9964fc62682f0fd7820650ccdf.ctex"]
+source_file="res://nivel_01/assets/knights/16x16 knight 4 v3.png"
+dest_files=["res://.godot/imported/16x16 knight 4 v3.png-f4d81c0a156f6df86f95b8a111d345c8.ctex"]
 
 [params]
 

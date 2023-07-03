@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bqhk8a453pfc5"
-path="res://.godot/imported/ganhou.wav-260486bc3da1b518f058dc8e5277e3fb.sample"
+path="res://.godot/imported/ganhou.wav-59777e20ddc5d98f3340bcdb9e7fba58.sample"
 
 [deps]
 
-source_file="res://nivel_03/assets/sons/ganhou.wav"
-dest_files=["res://.godot/imported/ganhou.wav-260486bc3da1b518f058dc8e5277e3fb.sample"]
+source_file="res://nivel_01/assets/sons/ganhou.wav"
+dest_files=["res://.godot/imported/ganhou.wav-59777e20ddc5d98f3340bcdb9e7fba58.sample"]
 
 [params]
 

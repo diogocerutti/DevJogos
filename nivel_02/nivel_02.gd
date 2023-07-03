@@ -93,4 +93,5 @@ func _on_button_end_pressed():
 		DadosGlobal.numero_vidas = 3
 		get_tree().change_scene_to_file("res://start_screen.tscn")
 	else:
-		get_tree().change_scene_to_file("res://nivel_03/nivel_03.tscn")
+		#get_tree().change_scene_to_file("res://nivel_03/nivel_03.tscn")
+		get_tree().change_scene_to_file("res://nivel_01/nivel_01.tscn")

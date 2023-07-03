@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfgaordb70wcp"
-path="res://.godot/imported/play-button-arrowhead.png-f31c8346702a6b0a25cb911eead0ee7e.ctex"
+uid="uid://c302w4svoqpam"
+path="res://.godot/imported/Lined Brick.png-218a81b6858800a0fd7e89965937bdd5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nivel_01/assets/play-button-arrowhead.png"
-dest_files=["res://.godot/imported/play-button-arrowhead.png-f31c8346702a6b0a25cb911eead0ee7e.ctex"]
+source_file="res://nivel_03/assets/Lined Brick.png"
+dest_files=["res://.godot/imported/Lined Brick.png-218a81b6858800a0fd7e89965937bdd5.ctex"]
 
 [params]
 

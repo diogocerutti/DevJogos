@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6ki61xjpinas"
-path="res://.godot/imported/16x16 knight 1 v3.png-63718d368ef4c36ad7c2b71278c5bf08.ctex"
+uid="uid://ctwe0paldvsgs"
+path="res://.godot/imported/poções.png-20ca82201f907c4cf2bbf7b5705945ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nivel_03/assets/knights/16x16 knight 1 v3.png"
-dest_files=["res://.godot/imported/16x16 knight 1 v3.png-63718d368ef4c36ad7c2b71278c5bf08.ctex"]
+source_file="res://nivel_03/assets/poções.png"
+dest_files=["res://.godot/imported/poções.png-20ca82201f907c4cf2bbf7b5705945ad.ctex"]
 
 [params]
 

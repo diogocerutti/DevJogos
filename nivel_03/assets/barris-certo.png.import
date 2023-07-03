@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drwt5041g30ro"
-path="res://.godot/imported/16x16 knight 4 v3.png-7e1497f3d6e7bd3f1b71e5deef6b0d82.ctex"
+uid="uid://vhqo18rx4ndl"
+path="res://.godot/imported/barris-certo.png-f4bb8aa0792ae7ffc62857c9b2d6d81c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nivel_03/assets/knights/16x16 knight 4 v3.png"
-dest_files=["res://.godot/imported/16x16 knight 4 v3.png-7e1497f3d6e7bd3f1b71e5deef6b0d82.ctex"]
+source_file="res://nivel_03/assets/barris-certo.png"
+dest_files=["res://.godot/imported/barris-certo.png-f4bb8aa0792ae7ffc62857c9b2d6d81c.ctex"]
 
 [params]
 

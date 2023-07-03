@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nicpb1a554eg"
-path="res://.godot/imported/tampa.png-a8a4e38e68c7630f68f8c54d8c060158.ctex"
+uid="uid://c6ki61xjpinas"
+path="res://.godot/imported/16x16 knight 1 v3.png-510fe7f8edbf48c2e40f452621062dd2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nivel_01/assets/tampa.png"
-dest_files=["res://.godot/imported/tampa.png-a8a4e38e68c7630f68f8c54d8c060158.ctex"]
+source_file="res://nivel_01/assets/knights/16x16 knight 1 v3.png"
+dest_files=["res://.godot/imported/16x16 knight 1 v3.png-510fe7f8edbf48c2e40f452621062dd2.ctex"]
 
 [params]
 

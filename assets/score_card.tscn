@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://g2h63we70ccn"]
 
-[ext_resource type="FontFile" uid="uid://cm1el74ieodtj" path="res://nivel_03/assets/fontes/PressStart2P-Regular.ttf" id="1_sm8en"]
+[ext_resource type="FontFile" uid="uid://cm1el74ieodtj" path="res://nivel_01/assets/fontes/PressStart2P-Regular.ttf" id="1_sm8en"]
 [ext_resource type="Script" path="res://assets/score_card.gd" id="2_bl77k"]
 
 [node name="score_card" type="Label"]

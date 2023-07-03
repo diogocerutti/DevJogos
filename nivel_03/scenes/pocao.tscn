@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://nm04yjerdwxr"]
 
 [ext_resource type="Script" path="res://objeto.gd" id="1_38pxb"]
-[ext_resource type="Texture2D" uid="uid://ctwe0paldvsgs" path="res://assets/Nivel01/poções.png" id="1_expvw"]
+[ext_resource type="Texture2D" uid="uid://ctwe0paldvsgs" path="res://nivel_03/assets/poções.png" id="1_expvw"]
 [ext_resource type="Script" path="res://poção.gd" id="2_1xvhj"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_c8xwk"]

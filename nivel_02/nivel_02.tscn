@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://lxpv8tvkb2a2" path="res://nivel_02/scenes/player_nivel02.tscn" id="6_6o1xd"]
 [ext_resource type="AudioStream" uid="uid://gx36roan6x8r" path="res://nivel_02/assets/sons/victory2.mp3" id="7_bx5ga"]
 [ext_resource type="AudioStream" uid="uid://c2gomhpyxioxj" path="res://nivel_02/assets/sons/tema2.mp3" id="8_3a4rd"]
-[ext_resource type="FontFile" uid="uid://cm1el74ieodtj" path="res://nivel_03/assets/fontes/PressStart2P-Regular.ttf" id="9_qnmcv"]
+[ext_resource type="FontFile" uid="uid://cm1el74ieodtj" path="res://nivel_01/assets/fontes/PressStart2P-Regular.ttf" id="9_qnmcv"]
 [ext_resource type="PackedScene" uid="uid://g2h63we70ccn" path="res://assets/score_card.tscn" id="9_sp447"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0yi64"]

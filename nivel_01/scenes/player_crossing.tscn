@@ -1,8 +1,8 @@
 [gd_scene load_steps=19 format=3 uid="uid://c8e63wnvolrjw"]
 
-[ext_resource type="Texture2D" uid="uid://drwt5041g30ro" path="res://nivel_03/assets/knights/16x16 knight 4 v3.png" id="2_kq0pf"]
-[ext_resource type="AudioStream" uid="uid://y10jdybjqisv" path="res://nivel_03/assets/sons/collide.mp3" id="3_2fq1j"]
-[ext_resource type="Script" path="res://nivel_03/scripts/player_crossing.gd" id="9_ksq56"]
+[ext_resource type="Texture2D" uid="uid://drwt5041g30ro" path="res://nivel_01/assets/knights/16x16 knight 4 v3.png" id="2_kq0pf"]
+[ext_resource type="AudioStream" uid="uid://y10jdybjqisv" path="res://nivel_01/assets/sons/collide.mp3" id="3_2fq1j"]
+[ext_resource type="Script" path="res://nivel_01/scripts/player_crossing.gd" id="9_ksq56"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nq61e"]
 atlas = ExtResource("2_kq0pf")
